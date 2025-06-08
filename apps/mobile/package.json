@@ -1,0 +1,32 @@
+{
+  "name": "@triliumnext/mobile",
+  "version": "0.94.1",
+  "description": "Build your personal knowledge base with TriliumNext Notes",
+  "private": true,
+  "license": "AGPL-3.0-only",
+  "author": {
+    "name": "TriliumNext Notes Team",
+    "email": "contact@eliandoran.me",
+    "url": "https://github.com/TriliumNext/Notes"
+  },
+  "nx": {
+    "name": "mobile",
+    "targets": {
+      "run-android": {
+        "executor": "@nx/react-native:run-android",
+        "options": {}
+      }
+    }
+  },
+  "dependencies": {
+    "@react-native/metro-config": "*",
+    "@testing-library/jest-native": "*",
+    "@testing-library/react-native": "*",
+    "metro-config": "*",
+    "nodejs-mobile-react-native": "18.20.4",
+    "react": "*",
+    "react-native": "*",
+    "react-native-svg": "*",
+    "react-native-webview": "13.15.0"
+  }
+}
